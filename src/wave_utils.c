@@ -13,7 +13,6 @@
 
 #define TRUE 1
 #define FALSE 0
-#define DEBUG TRUE
 
 typedef struct WaveData {
 	int length;
@@ -23,7 +22,7 @@ typedef struct WaveData {
 /**
  * Read the contents of a .wav file and return a WaveData struct.
  */
-WaveData read_wav(char * filepath) {
+WaveData read_wav(char * filepath, int verbose) {
 	SNDFILE *sf;
     SF_INFO info;
     int num, num_samples;
@@ -48,7 +47,7 @@ WaveData read_wav(char * filepath) {
     c = info.channels;
     num_samples = f*c;
     
-    if (DEBUG == TRUE) {
+    if (verbose == TRUE) {
 		printf("frames=%d\n", f);
 		printf("samplerate=%d\n", sr);
 		printf("channels=%d\n", c);
@@ -60,7 +59,7 @@ WaveData read_wav(char * filepath) {
     num = sf_read_double(sf, buff, num_samples);
     sf_close(sf);
     
-    if (DEBUG == TRUE) printf("samples read: %d\n\n", num);
+    if (verbose == TRUE) printf("samples read: %d\n\n", num);
 	
 	// Update WaveData struct and return:
 	wave_data.length = num_samples;
@@ -71,7 +70,7 @@ WaveData read_wav(char * filepath) {
 /**
  * Write the contents of an array containing convolved audio samples to disk.
  */
-void write_wav(char * filename, double * sample_data, int num_samples, int num_channels) {
+void write_wav(char * filename, double * sample_data, int num_samples, int num_channels, int verbose) {
 	SNDFILE *sf;
 	SF_INFO info;
 	sf_count_t written;
@@ -90,6 +89,6 @@ void write_wav(char * filename, double * sample_data, int num_samples, int num_c
 	
 	// Write data to disk and clean up:
 	written = sf_write_double(sf, sample_data, num_samples);
-	if (DEBUG == TRUE) printf("Created new .wav file with %lld samples.\n", written);
+	if (verbose == TRUE) printf("Created new .wav file with %lld samples.\n", written);
 	sf_close(sf);
 }
