@@ -12,8 +12,12 @@
  */ 
 
 #include <stdlib.h>
+#include <float.h>
 #include <check.h>
 #include "../src/convolve.h"
+
+#define TRUE 1
+#define FALSE 0
  
 START_TEST(test_initialize) {
 	
@@ -31,11 +35,11 @@ START_TEST(test_convolve) {
 	initialize("/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4.Audio/DrySounds/Drum Kit/DrumsDry.wav",
 			   "/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4.Audio/ImpulseResponses/Mono/big_hall.wav", 0);
 	convolve("/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4/src/out.wav", 0);
-
-	// Check that Y[] was initialized with the proper size:
-	ck_assert_int_eq(X.length + H.length - 1, P);
 	
-	double min = 1.0, max = -1.0, total = 0.0, avg;
+	// Ensure output data array's length is non-zero:
+	ck_assert_msg((P != 0) == TRUE, "P should be non-zero. P: %d", P);	
+	
+	double min = DBL_MAX, max = DBL_MIN, total = 0.0, avg;
 	for (int i = 0; i < P; i++) {
 		if (Y[i] < min)
 			min = Y[i];
@@ -48,9 +52,9 @@ START_TEST(test_convolve) {
 	avg = total / P;
 	
 	// Check that the convolved data is non-zero and within [-1.0, 1.0]:
-	ck_assert(avg != 0);
-	ck_assert(min >= -1.0);
-	ck_assert(max <= 1.0);
+	ck_assert_msg((avg != 0) == TRUE, "Output data average should be non-zero. Avg: %.3f", avg);
+	ck_assert_msg((min >= -1.0) == TRUE, "Output data min should be >= -1.0. Min: %.3f", min);
+	ck_assert_msg((max <= 1.0) == TRUE, "Output data max should be <= 1.0. Max: %.3f", max);
 }
 END_TEST
 	
@@ -78,7 +82,7 @@ int main(int argc, char **argv) {
 
 	s = convolution_suite();
 	sr = srunner_create(s);
-
+	
 	srunner_run_all(sr, CK_NORMAL);
 	number_failed = srunner_ntests_failed(sr);
 	srunner_free(sr);
