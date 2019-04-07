@@ -32,7 +32,7 @@ END_TEST
 
 START_TEST(test_convolve) {
 	
-	initialize("/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4.Audio/DrySounds/Drum Kit/DrumsDry.wav",
+	initialize("/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4.Audio/DrySounds/Guitar/GuitarDry.wav",
 			   "/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4.Audio/ImpulseResponses/Mono/big_hall.wav", 0);
 	convolve("/Users/tylergillson/Dropbox/UofC/W2019/CPSC.501/Assignments/A4/src/out.wav", 0);
 	

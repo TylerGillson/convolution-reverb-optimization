@@ -1,6 +1,6 @@
 #include "float.h"
 #include "wave_utils.c"
-#include "dft_fft_utils.c"
+#include "fft.c"
 
 #define TRUE 1
 #define FALSE 0
@@ -249,8 +249,8 @@ void convolve(char * outputFile, int verbose) {
 	
 	// Convolve the input and impulse response sample data:
 	if (verbose == TRUE) printf("Beginning convolution ...\n");
-	convolve_input_side();
-	//convolve_overlap_add_fft();
+	//convolve_input_side();
+	convolve_overlap_add_fft();
 	if (verbose == TRUE) printf("Successfully performed convolution.\n\n");
 	
 	// Normalize convolved audio data:
