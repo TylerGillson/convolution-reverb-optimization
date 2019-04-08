@@ -6,7 +6,7 @@
 #define FALSE 0
 
 int N, M, P, i;
-double elapsed, max;
+double elapsed, max = DBL_MIN;
 double *Y;
 clock_t before;
 WaveData X, H;
@@ -50,6 +50,7 @@ void convolve_input_side() {
  * filter kernel, then shift the sliding window over.
  */
 int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
+	// For-loop unrolled once for hand tuning #2
 	for (int i = 0; i < xx_len-1; i+=2) {
 		int in_range = (i + 1 < segment_len) ? TRUE : FALSE;
 		if (in_range) {
@@ -73,6 +74,7 @@ int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
  * imaginary components of frequency response into XX.
  */
 void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
+	// idx pre-calculated to minimize work inside loop for hand tuning #1
 	int idx;
 	for (int i = 0; i < spectra_len; i++) {
 		idx = i * 2;
@@ -85,6 +87,7 @@ void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
  * Extract real & imaginary components from frequency response into REX & IMX.
  */
 void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
+	// idx pre-calculated to minimize work inside loop for hand tuning #1
 	int idx;
 	for (int i = 0; i < fft_len-1; i += 2) {
 		idx = i / 2;
@@ -95,6 +98,15 @@ void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
 		XX[i]    = 0.0;
 		XX[i+1]  = 0.0;
 	}
+}
+
+/**
+ * Used to determine the convolved audio's maximum absolute value.
+ */
+void update_max(double val) {
+	double abs_val = fabs(val);
+	if (abs_val > max)
+		max = abs_val;
 }
 
 /**
@@ -221,21 +233,17 @@ void convolve_overlap_add_fft() {
 		
 		// Output the segment samples stored in XX[0]-XX[segment_len-1]
 		// to the output file's data array:
-		for (j = 0; j < segment_len; j++)
+		for (j = 0; j < segment_len; j++) {
+			update_max(XX[j]);
 			Y[output_idx+j] = XX[j];
+		}
 		output_idx += segment_len;	
 	}
 	
 	// Add all samples remaining in OLAP to the output file's data array:
-	for (j = 0; j < olap_len; j++)
+	for (j = 0; j < olap_len; j++) {
+		update_max(OLAP[j]);
 		Y[output_idx+j] = OLAP[j];
-	
-	// Determine the convolved audio's maximum absolute value:
-	max = DBL_MIN;
-	for (i = 0; i < P; i++) {
-		double abs_val = fabs(Y[i]);
-		if (abs_val > max)
-			max = abs_val;
 	}
 	
 	// Clean up:
