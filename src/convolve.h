@@ -61,9 +61,11 @@ int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
  * imaginary components of frequency response into XX.
  */
 void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
+	int idx;
 	for (int i = 0; i < spectra_len; i++) {
-		XX[i*2]   = REX[i];
-		XX[i*2+1] = IMX[i];
+		idx = i * 2;
+		XX[idx]   = REX[i];
+		XX[idx+1] = IMX[i];
 	}
 }
 
@@ -71,9 +73,11 @@ void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
  * Extract real & imaginary components from frequency response into REX & IMX.
  */
 void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
+	int idx;
 	for (int i = 0; i < fft_len-1; i += 2) {
-		REX[i/2] = XX[i];
-		IMX[i/2] = XX[i+1];
+		idx = i / 2;
+		REX[idx] = XX[i];
+		IMX[idx] = XX[i+1];
 		
 		// Zero-out XX as it is copied into REX & IMX:
 		XX[i]    = 0.0;
