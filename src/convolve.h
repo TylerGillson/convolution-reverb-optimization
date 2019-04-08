@@ -5,6 +5,11 @@
 #define TRUE 1
 #define FALSE 0
 
+#define FREQUENCY_CONVOLVE(rex,refr,imx,imfr,j)\
+		temp=(rex[j]*refr[j])-(imx[j]*imfr[j]);\
+		imx[j]=(rex[j]*imfr[j])+(imx[j]*refr[j]);\
+		rex[j]=temp
+
 int N, M, P, i;
 double elapsed, max = DBL_MIN;
 double *Y;
@@ -51,7 +56,7 @@ void convolve_input_side() {
  */
 int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
 	// For-loop unrolled once for hand tuning #2
-	for (int i = 0; i < xx_len-1; i+=2) {
+	for (int i = 0; i < xx_len-1; i += 2) {
 		int in_range = (i + 1 < segment_len) ? TRUE : FALSE;
 		if (in_range) {
 			XX[i]   = X.sampleData[window_idx + i];
@@ -235,12 +240,19 @@ void convolve_overlap_add_fft() {
 		four1(XX-1, fft_len, 1);
 		post_process_fft(fft_len, XX, REX, IMX);
 		
+		// For-loop unrolled twice for hand tuning #5
 		// Multiply the frequency spectrum by the frequency response:
-		for (int j = 0; j < spectra_len; j++) {
-			temp   = (REX[j] * REFR[j]) - (IMX[j] * IMFR[j]);
-			IMX[j] = (REX[j] * IMFR[j]) + (IMX[j] * REFR[j]);
-			REX[j] = temp;			
+		for (j = 0; j < spectra_len-2; j += 3) {
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j);
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j+1);
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j+2);
 		}
+		if (j == spectra_len - 2) {
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j);
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j+1);
+		}
+		else if (j == spectra_len - 1)
+			FREQUENCY_CONVOLVE(REX, REFR, IMX, IMFR, j);
 		
 		// Put REX & IMX into XX, the perform the IFFT on XX:
 		pre_process_fft(spectra_len, XX, REX, IMX);
