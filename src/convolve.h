@@ -15,7 +15,8 @@ WaveData X, H;
  * Extract sample data from dry recording and impulse response audio files:
  */
 void initialize(char * inputFile, char * irFile, int verbose) {
-	if (verbose == TRUE) printf("\nReading data from dry sound and impulse response files ...\n\n");
+	if (verbose == TRUE)
+		printf("\nReading dry sound and impulse response files ...\n\n");
 	X = read_wav(inputFile, verbose);	
 	H = read_wav(irFile, verbose);
 	if (verbose == TRUE) printf("Done!\n\n");
@@ -135,15 +136,16 @@ void convolve_overlap_add_fft() {
 	int olap_len = filter_kernel_len - 1;
 	
 	// Initialize arrays:
-	double *XX = (double *)malloc(sizeof(double) * xx_len);			// The time domain signal (for the FFT)
-	double *REX = (double *)malloc(sizeof(double) * spectra_len);	// Real part of the frequency domain (for the FFT)
-	double *IMX = (double *)malloc(sizeof(double) * spectra_len);	// Imaginary part of the frequency domain (for the FFT)
-	double *REFR = (double *)malloc(sizeof(double) * spectra_len);	// Real part of the filter's frequency response
-	double *IMFR = (double *)malloc(sizeof(double) * spectra_len);	// Imaginary part of the filter's frequency response
-	double *OLAP = (double *)malloc(sizeof(double) * olap_len);		// Holds the overlapping samples from segment to segment
+	double *XX = (double *)malloc(sizeof(double) * xx_len);
+	double *REX = (double *)malloc(sizeof(double) * spectra_len);
+	double *IMX = (double *)malloc(sizeof(double) * spectra_len);
+	double *REFR = (double *)malloc(sizeof(double) * spectra_len);
+	double *IMFR = (double *)malloc(sizeof(double) * spectra_len);
+	double *OLAP = (double *)malloc(sizeof(double) * olap_len);
 	
 	// Ensure initialization worked:
-	if (XX == NULL || REX == NULL || IMX == NULL || REFR == NULL || IMFR == NULL || OLAP == NULL) {
+	if (XX == NULL || REX == NULL || IMX == NULL || 
+		REFR == NULL || IMFR == NULL || OLAP == NULL) {
 		printf("malloc failed while initializing arrays!\n");
 		return;
 	}

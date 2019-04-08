@@ -1,11 +1,12 @@
 /**
  * Utility methods for:
  *     1) Reading the contents of a .wav file and returning a WaveData struct.
- *     2) Writing the contents of an array containing convolved audio samples
- *        to disk.
+ *     2) Writing the contents of an array containing convolved 
+ * 		  audio samples to disk.
  * 
- * Source for read_wav:  https://ubuntuforums.org/showthread.php?t=968690
- * Source for write_wav: http://www.mega-nerd.com/libsndfile/api.html#write
+ * Sources:
+ *   - read_wav:  https://ubuntuforums.org/showthread.php?t=968690
+ *   - write_wav: http://www.mega-nerd.com/libsndfile/api.html#write
  */
 
 #include <stdlib.h>
@@ -41,7 +42,7 @@ WaveData read_wav(char * filepath, int verbose) {
 		return wave_data;
 	}
 	
-    // Extract some of the header info to figure out how much data to read:
+    // Extract some header info to figure out how much data to read:
     f = info.frames;
     sr = info.samplerate;
     c = info.channels;
@@ -68,9 +69,11 @@ WaveData read_wav(char * filepath, int verbose) {
 }
 
 /**
- * Write the contents of an array containing convolved audio samples to disk.
+ * Write the contents of an array containing convolved audio 
+ * samples to disk.
  */
-void write_wav(char * filename, double * sample_data, int num_samples, int num_channels, int verbose) {
+void write_wav(char * filename, double * sample_data,
+			   int num_samples, int num_channels, int verbose) {
 	SNDFILE *sf;
 	SF_INFO info;
 	sf_count_t written;
@@ -89,6 +92,7 @@ void write_wav(char * filename, double * sample_data, int num_samples, int num_c
 	
 	// Write data to disk and clean up:
 	written = sf_write_double(sf, sample_data, num_samples);
-	if (verbose == TRUE) printf("Created new .wav file with %lld samples.\n", written);
+	if (verbose == TRUE)
+		printf("Created new .wav file with %lld samples.\n", written);
 	sf_close(sf);
 }

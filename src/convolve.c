@@ -12,7 +12,7 @@
  *     gcc convolve.c -lsndfile -o convolve
  * 
  * Run with:
- *     ./convolve
+ *     ./convolve [inputFile] [irFile] [outputFile]
  * 
  */
 int main(int argc, char **argv) {
