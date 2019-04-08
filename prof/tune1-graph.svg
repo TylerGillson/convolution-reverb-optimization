@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" width="1200" height="214" onload="init(evt)" viewBox="0 0 1200 214" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" width="600" height="214" onload="init(evt)" viewBox="0 0 600 214" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
 <!-- NOTES:  -->
 <defs>
@@ -334,120 +334,104 @@
 	}
 ]]>
 </script>
-<rect x="0.0" y="0" width="1200.0" height="214.0" fill="url(#background)"  />
-<text id="title" x="600.00" y="24" >Flame Graph</text>
+<rect x="0.0" y="0" width="600.0" height="214.0" fill="url(#background)"  />
+<text id="title" x="300.00" y="24" >Tune 1 Profile</text>
 <text id="details" x="10.00" y="197" > </text>
 <text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom</text>
-<text id="search" x="1090.00" y="24" >Search</text>
-<text id="matched" x="1090.00" y="197" > </text>
+<text id="search" x="490.00" y="24" >Search</text>
+<text id="matched" x="490.00" y="197" > </text>
 <g id="frames">
 <g >
-<title>libsndfile.1.dylib`pcm_write_d2les (9 samples, 0.39%)</title><rect x="1175.1" y="53" width="4.6" height="15.0" fill="rgb(233,124,4)" rx="2" ry="2" />
-<text  x="1178.05" y="63.5" ></text>
+<title>libsystem_kernel.dylib`__exit (4 samples, 0.17%)</title><rect x="589.0" y="117" width="1.0" height="15.0" fill="rgb(237,45,44)" rx="2" ry="2" />
+<text  x="592.02" y="127.5" ></text>
 </g>
 <g >
-<title>libsystem_m.dylib`llrint (1 samples, 0.04%)</title><rect x="1179.2" y="37" width="0.5" height="15.0" fill="rgb(246,89,34)" rx="2" ry="2" />
-<text  x="1182.17" y="47.5" ></text>
+<title>libsystem_m.dylib`llrint (3 samples, 0.13%)</title><rect x="584.6" y="37" width="0.7" height="15.0" fill="rgb(222,30,25)" rx="2" ry="2" />
+<text  x="587.61" y="47.5" ></text>
 </g>
 <g >
-<title>libsystem_kernel.dylib`madvise (1 samples, 0.04%)</title><rect x="1187.4" y="101" width="0.5" height="15.0" fill="rgb(221,71,8)" rx="2" ry="2" />
-<text  x="1190.42" y="111.5" ></text>
+<title>convolve`slide_window (32 samples, 1.35%)</title><rect x="575.8" y="69" width="7.8" height="15.0" fill="rgb(223,213,18)" rx="2" ry="2" />
+<text  x="578.79" y="79.5" ></text>
 </g>
 <g >
-<title>convolve`post_process_fft (29 samples, 1.27%)</title><rect x="1129.7" y="69" width="14.9" height="15.0" fill="rgb(242,95,9)" rx="2" ry="2" />
-<text  x="1132.69" y="79.5" ></text>
-</g>
-<g >
-<title>all (2,289 samples, 100%)</title><rect x="10.0" y="165" width="1180.0" height="15.0" fill="rgb(213,148,16)" rx="2" ry="2" />
-<text  x="13.00" y="175.5" ></text>
-</g>
-<g >
-<title>convolve`slide_window (45 samples, 1.97%)</title><rect x="1151.9" y="69" width="23.2" height="15.0" fill="rgb(229,167,14)" rx="2" ry="2" />
-<text  x="1154.85" y="79.5" >c..</text>
-</g>
-<g >
-<title>convolve`initialize (15 samples, 0.66%)</title><rect x="1179.7" y="101" width="7.7" height="15.0" fill="rgb(239,205,53)" rx="2" ry="2" />
-<text  x="1182.69" y="111.5" ></text>
-</g>
-<g >
-<title>libsystem_kernel.dylib`read (4 samples, 0.17%)</title><rect x="1184.8" y="37" width="2.1" height="15.0" fill="rgb(216,41,39)" rx="2" ry="2" />
-<text  x="1187.84" y="47.5" ></text>
-</g>
-<g >
-<title>convolve`write_wav (9 samples, 0.39%)</title><rect x="1175.1" y="85" width="4.6" height="15.0" fill="rgb(216,134,35)" rx="2" ry="2" />
-<text  x="1178.05" y="95.5" ></text>
-</g>
-<g >
-<title>libsndfile.1.dylib`d2les_array (4 samples, 0.17%)</title><rect x="1175.1" y="37" width="2.0" height="15.0" fill="rgb(251,82,10)" rx="2" ry="2" />
-<text  x="1178.05" y="47.5" ></text>
-</g>
-<g >
-<title>libdyld.dylib`start (2,289 samples, 100.00%)</title><rect x="10.0" y="133" width="1180.0" height="15.0" fill="rgb(208,124,23)" rx="2" ry="2" />
-<text  x="13.00" y="143.5" >libdyld.dylib`start</text>
-</g>
-<g >
-<title>convolve`0x4 (2,289 samples, 100.00%)</title><rect x="10.0" y="149" width="1180.0" height="15.0" fill="rgb(249,54,51)" rx="2" ry="2" />
-<text  x="13.00" y="159.5" >convolve`0x4</text>
-</g>
-<g >
-<title>convolve`main (2,285 samples, 99.83%)</title><rect x="10.0" y="117" width="1177.9" height="15.0" fill="rgb(227,206,19)" rx="2" ry="2" />
+<title>convolve`main (2,364 samples, 99.83%)</title><rect x="10.0" y="117" width="579.0" height="15.0" fill="rgb(205,34,53)" rx="2" ry="2" />
 <text  x="13.00" y="127.5" >convolve`main</text>
 </g>
 <g >
-<title>libsndfile.1.dylib`sf_open (1 samples, 0.04%)</title><rect x="1186.9" y="85" width="0.5" height="15.0" fill="rgb(213,120,53)" rx="2" ry="2" />
-<text  x="1189.91" y="95.5" ></text>
+<title>all (2,368 samples, 100%)</title><rect x="10.0" y="165" width="580.0" height="15.0" fill="rgb(209,88,21)" rx="2" ry="2" />
+<text  x="13.00" y="175.5" ></text>
 </g>
 <g >
-<title>libsndfile.1.dylib`sf_write_double (9 samples, 0.39%)</title><rect x="1175.1" y="69" width="4.6" height="15.0" fill="rgb(205,79,18)" rx="2" ry="2" />
-<text  x="1178.05" y="79.5" ></text>
+<title>libdyld.dylib`start (2,368 samples, 100.00%)</title><rect x="10.0" y="133" width="580.0" height="15.0" fill="rgb(220,227,51)" rx="2" ry="2" />
+<text  x="13.00" y="143.5" >libdyld.dylib`start</text>
 </g>
 <g >
-<title>convolve`convolve (2,269 samples, 99.13%)</title><rect x="10.0" y="101" width="1169.7" height="15.0" fill="rgb(240,184,18)" rx="2" ry="2" />
+<title>libsndfile.1.dylib`d2les_array (3 samples, 0.13%)</title><rect x="583.6" y="37" width="0.8" height="15.0" fill="rgb(234,93,49)" rx="2" ry="2" />
+<text  x="586.63" y="47.5" ></text>
+</g>
+<g >
+<title>libsndfile.1.dylib`pcm_read_les2d (14 samples, 0.59%)</title><rect x="585.3" y="53" width="3.5" height="15.0" fill="rgb(210,218,49)" rx="2" ry="2" />
+<text  x="588.35" y="63.5" ></text>
+</g>
+<g >
+<title>convolve`four1 (2,187 samples, 92.36%)</title><rect x="32.5" y="69" width="535.7" height="15.0" fill="rgb(209,152,38)" rx="2" ry="2" />
+<text  x="35.53" y="79.5" >convolve`four1</text>
+</g>
+<g >
+<title>convolve`initialize (14 samples, 0.59%)</title><rect x="585.3" y="101" width="3.5" height="15.0" fill="rgb(205,202,35)" rx="2" ry="2" />
+<text  x="588.35" y="111.5" ></text>
+</g>
+<g >
+<title>libsndfile.1.dylib`pcm_write_d2les (7 samples, 0.30%)</title><rect x="583.6" y="53" width="1.7" height="15.0" fill="rgb(227,48,48)" rx="2" ry="2" />
+<text  x="586.63" y="63.5" ></text>
+</g>
+<g >
+<title>convolve`pre_process_fft (9 samples, 0.38%)</title><rect x="573.6" y="69" width="2.2" height="15.0" fill="rgb(246,57,2)" rx="2" ry="2" />
+<text  x="576.59" y="79.5" ></text>
+</g>
+<g >
+<title>convolve`read_wav (14 samples, 0.59%)</title><rect x="585.3" y="85" width="3.5" height="15.0" fill="rgb(253,134,44)" rx="2" ry="2" />
+<text  x="588.35" y="95.5" ></text>
+</g>
+<g >
+<title>convolve`write_wav (7 samples, 0.30%)</title><rect x="583.6" y="85" width="1.7" height="15.0" fill="rgb(216,97,10)" rx="2" ry="2" />
+<text  x="586.63" y="95.5" ></text>
+</g>
+<g >
+<title>convolve`post_process_fft (22 samples, 0.93%)</title><rect x="568.2" y="69" width="5.4" height="15.0" fill="rgb(246,207,42)" rx="2" ry="2" />
+<text  x="571.20" y="79.5" ></text>
+</g>
+<g >
+<title>libsystem_kernel.dylib`madvise (1 samples, 0.04%)</title><rect x="588.8" y="101" width="0.2" height="15.0" fill="rgb(226,39,9)" rx="2" ry="2" />
+<text  x="591.78" y="111.5" ></text>
+</g>
+<g >
+<title>convolve`0x4 (2,368 samples, 100.00%)</title><rect x="10.0" y="149" width="580.0" height="15.0" fill="rgb(254,84,39)" rx="2" ry="2" />
+<text  x="13.00" y="159.5" >convolve`0x4</text>
+</g>
+<g >
+<title>libsndfile.1.dylib`sf_write_double (7 samples, 0.30%)</title><rect x="583.6" y="69" width="1.7" height="15.0" fill="rgb(210,196,36)" rx="2" ry="2" />
+<text  x="586.63" y="79.5" ></text>
+</g>
+<g >
+<title>convolve`convolve_overlap_add_fft (2,337 samples, 98.69%)</title><rect x="11.2" y="85" width="572.4" height="15.0" fill="rgb(215,105,45)" rx="2" ry="2" />
+<text  x="14.22" y="95.5" >convolve`convolve_overlap_add_fft</text>
+</g>
+<g >
+<title>libsystem_kernel.dylib`read (2 samples, 0.08%)</title><rect x="588.3" y="37" width="0.5" height="15.0" fill="rgb(247,125,22)" rx="2" ry="2" />
+<text  x="591.29" y="47.5" ></text>
+</g>
+<g >
+<title>libsystem_kernel.dylib`write (1 samples, 0.04%)</title><rect x="584.4" y="37" width="0.2" height="15.0" fill="rgb(234,161,22)" rx="2" ry="2" />
+<text  x="587.37" y="47.5" ></text>
+</g>
+<g >
+<title>libsndfile.1.dylib`sf_read_double (14 samples, 0.59%)</title><rect x="585.3" y="69" width="3.5" height="15.0" fill="rgb(236,166,41)" rx="2" ry="2" />
+<text  x="588.35" y="79.5" ></text>
+</g>
+<g >
+<title>convolve`convolve (2,349 samples, 99.20%)</title><rect x="10.0" y="101" width="575.3" height="15.0" fill="rgb(231,85,2)" rx="2" ry="2" />
 <text  x="13.00" y="111.5" >convolve`convolve</text>
-</g>
-<g >
-<title>convolve`four1 (2,090 samples, 91.31%)</title><rect x="52.3" y="69" width="1077.4" height="15.0" fill="rgb(240,0,31)" rx="2" ry="2" />
-<text  x="55.27" y="79.5" >convolve`four1</text>
-</g>
-<g >
-<title>convolve`read_wav (14 samples, 0.61%)</title><rect x="1179.7" y="85" width="7.2" height="15.0" fill="rgb(219,130,31)" rx="2" ry="2" />
-<text  x="1182.69" y="95.5" ></text>
-</g>
-<g >
-<title>convolve`convolve_overlap_add_fft (2,256 samples, 98.56%)</title><rect x="12.1" y="85" width="1163.0" height="15.0" fill="rgb(237,28,29)" rx="2" ry="2" />
-<text  x="15.06" y="95.5" >convolve`convolve_overlap_add_fft</text>
-</g>
-<g >
-<title>libsystem_kernel.dylib`__exit (4 samples, 0.17%)</title><rect x="1187.9" y="117" width="2.1" height="15.0" fill="rgb(250,103,41)" rx="2" ry="2" />
-<text  x="1190.94" y="127.5" ></text>
-</g>
-<g >
-<title>libsystem_kernel.dylib`write (4 samples, 0.17%)</title><rect x="1177.1" y="37" width="2.1" height="15.0" fill="rgb(213,7,0)" rx="2" ry="2" />
-<text  x="1180.11" y="47.5" ></text>
-</g>
-<g >
-<title>libsndfile.1.dylib`sf_open (1 samples, 0.04%)</title><rect x="1179.7" y="69" width="0.5" height="15.0" fill="rgb(216,216,33)" rx="2" ry="2" />
-<text  x="1182.69" y="79.5" ></text>
-</g>
-<g >
-<title>libsystem_m.dylib`sin (1 samples, 0.04%)</title><rect x="1129.2" y="53" width="0.5" height="15.0" fill="rgb(243,80,17)" rx="2" ry="2" />
-<text  x="1132.17" y="63.5" ></text>
-</g>
-<g >
-<title>libsndfile.1.dylib`sf_read_double (13 samples, 0.57%)</title><rect x="1180.2" y="69" width="6.7" height="15.0" fill="rgb(205,97,41)" rx="2" ry="2" />
-<text  x="1183.21" y="79.5" ></text>
-</g>
-<g >
-<title>convolve`pre_process_fft (14 samples, 0.61%)</title><rect x="1144.6" y="69" width="7.3" height="15.0" fill="rgb(239,43,38)" rx="2" ry="2" />
-<text  x="1147.64" y="79.5" ></text>
-</g>
-<g >
-<title>libsndfile.1.dylib`pcm_read_les2d (13 samples, 0.57%)</title><rect x="1180.2" y="53" width="6.7" height="15.0" fill="rgb(250,64,28)" rx="2" ry="2" />
-<text  x="1183.21" y="63.5" ></text>
-</g>
-<g >
-<title>libsndfile.1.dylib`DYLD-STUB$$calloc (1 samples, 0.04%)</title><rect x="1179.7" y="53" width="0.5" height="15.0" fill="rgb(248,152,12)" rx="2" ry="2" />
-<text  x="1182.69" y="63.5" ></text>
 </g>
 </g>
 </svg>

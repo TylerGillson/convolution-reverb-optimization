@@ -1,69 +1,11 @@
-#include "float.h"
-#include "wave_utils.c"
-#include "fft.c"
-
-#define TRUE 1
-#define FALSE 0
-
-int N, M, P, i;
-double elapsed, max;
-double *Y;
-clock_t before;
-WaveData X, H;
-
-/**
- * Extract sample data from dry recording and impulse response audio files:
- */
-void initialize(char * inputFile, char * irFile, int verbose) {
-	if (verbose == TRUE)
-		printf("\nReading dry sound and impulse response files ...\n\n");
-	X = read_wav(inputFile, verbose);	
-	H = read_wav(irFile, verbose);
-	if (verbose == TRUE) printf("Done!\n\n");
-}
-
-/**
- * Input-side convolution algorithm.
- */ 
-void convolve_input_side() {
-	// Zero the output array:
-	for (i = 0; i < P; i++)
-		Y[i] = 0.0;
-	
-	// Perform the convolution:
-	max = DBL_MIN;
-	for (i = 0; i < N; i++) {
-		for (int j = 0; j < M; j++) {
-			Y[i+j] += X.sampleData[i] * H.sampleData[j];
-			
-			// Determine the convolved audio's maximum absolute value:
-			double abs_val = fabs(Y[i+j]);
-			if (abs_val > max)
-				max = abs_val;
-		}
-	}
-}
-
 /**
  * Load the next segment of the input file's sample data
  * into XX, zero-padding all entries to the right of the
  * filter kernel, then shift the sliding window over.
  */
 int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
-	for (int i = 0; i < xx_len-1; i+=2) {
-		int in_range = (i + 1 < segment_len) ? TRUE : FALSE;
-		if (in_range) {
-			XX[i]   = X.sampleData[window_idx + i];
-			XX[i+1] = X.sampleData[window_idx + i + 1];
-		}
-		else {
-			XX[i]   = 0.0;
-			XX[i+1] = 0.0;
-		}	
-	}
-	if (i == xx_len-1)
-		XX[i] = 0.0;
-		
+	for (int i = 0; i < xx_len; i++)
+		XX[i] = (i < segment_len) ? X.sampleData[window_idx + i] : 0.0;
 	window_idx += segment_len;
 	return window_idx;
 }
@@ -73,11 +15,9 @@ int slide_window(int xx_len, int segment_len, int window_idx, double *XX) {
  * imaginary components of frequency response into XX.
  */
 void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
-	int idx;
 	for (int i = 0; i < spectra_len; i++) {
-		idx = i * 2;
-		XX[idx]   = REX[i];
-		XX[idx+1] = IMX[i];
+		XX[i*2]   = REX[i];
+		XX[i*2+1] = IMX[i];
 	}
 }
 
@@ -85,11 +25,9 @@ void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
  * Extract real & imaginary components from frequency response into REX & IMX.
  */
 void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
-	int idx;
 	for (int i = 0; i < fft_len-1; i += 2) {
-		idx = i / 2;
-		REX[idx] = XX[i];
-		IMX[idx] = XX[i+1];
+		REX[i/2] = XX[i];
+		IMX[i/2] = XX[i+1];
 		
 		// Zero-out XX as it is copied into REX & IMX:
 		XX[i]    = 0.0;
@@ -245,40 +183,4 @@ void convolve_overlap_add_fft() {
 	free(REFR);
 	free(IMFR);
 	free(OLAP);
-}
-
-/**
- * Convolve the sample data from the input and the impulse response files;
- * normalize the resulting convolved audio data, then write it to disk as
- * a new WAVE file at the specified filepath.
- */
-void convolve(char * outputFile, int verbose) {
-	// Determine size of Y[]:
-	N = X.length;
-	M = H.length;
-	P = N + M - 1;
-	
-	// Allocate space for the convolution data:
-	Y = (double *)malloc(sizeof(double)*P);
-	if (Y == NULL) {
-		printf("malloc of size %d failed!\n", P);
-		return;
-	}
-	
-	// Convolve the input and impulse response sample data:
-	if (verbose == TRUE) printf("Beginning convolution ...\n");
-	//convolve_input_side();
-	convolve_overlap_add_fft();
-	if (verbose == TRUE) printf("Successfully performed convolution.\n\n");
-	
-	// Normalize convolved audio data:
-	if (verbose == TRUE) printf("Normalizing convolved audio ...\n");
-	for (i = 0; i < P; i++)
-		Y[i] /= max;
-	if (verbose == TRUE) printf("Done!\n\n");
-	
-	// Write convolved data to a new .wav file:
-	if (verbose == TRUE) printf("Creating output file ...\n");
-	write_wav(outputFile, Y, P, 1, verbose);
-	if (verbose == TRUE) printf("Done!\n");
 }
