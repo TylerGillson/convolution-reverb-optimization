@@ -87,12 +87,37 @@ void pre_process_fft(int spectra_len, double *XX, double *REX, double *IMX) {
  * Extract real & imaginary components from frequency response into REX & IMX.
  */
 void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
-	// idx pre-calculated to minimize work inside loop for hand tuning #1
+	int idx;
+	for (int i = 0; i < fft_len-1; i += 2) {
+		// idx pre-calculated to minimize work inside loop for hand tuning #1
+		idx = i / 2;
+		REX[idx] = XX[i];
+		IMX[idx] = XX[i+1];
+
+		// Zero-out XX as it is copied into REX & IMX:
+		XX[i]    = 0.0;
+		XX[i+1]  = 0.0;
+	}
+}
+
+
+/**
+ * Extract real & imaginary components from frequency response into
+ * REX, IMX, REFR, and IMFR. Called once, prior to the main body of
+ * the convolution algorithm.
+ */
+void post_process_fft_one_off(int fft_len, double *XX,
+							  double *REX, double *IMX,
+							  double *REFR, double *IMFR) {
 	int idx;
 	for (int i = 0; i < fft_len-1; i += 2) {
 		idx = i / 2;
 		REX[idx] = XX[i];
 		IMX[idx] = XX[i+1];
+	
+		// Copy values to REFR & IMFR (hand tuning #4):
+		REFR[idx] = REX[idx];
+		IMFR[idx] = IMX[idx];
 		
 		// Zero-out XX as it is copied into REX & IMX:
 		XX[i]    = 0.0;
@@ -100,8 +125,10 @@ void post_process_fft(int fft_len, double *XX, double *REX, double *IMX) {
 	}
 }
 
+
 /**
  * Used to determine the convolved audio's maximum absolute value.
+ * Method added for hand tuning #3.
  */
 void update_max(double val) {
 	double abs_val = fabs(val);
@@ -190,13 +217,9 @@ void convolve_overlap_add_fft() {
 	// Perform the FFT on XX, then split the result
 	// into the spectra arrays:
 	four1(XX-1, fft_len, 1);
-	post_process_fft(fft_len, XX, REX, IMX);
 	
-	// Save the frequency response into REFR & IMFR:
-	for (i = 0; i < spectra_len; i++) {
-		REFR[i] = REX[i];
-		IMFR[i] = IMX[i];
-	}
+	// Save the frequency response into REFR & IMFR during post-processing:
+	post_process_fft_one_off(fft_len, XX, REX, IMX, REFR, IMFR);
 	
 	// Process each of the segments:
 	int j;

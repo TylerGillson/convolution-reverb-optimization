@@ -1,0 +1,3839 @@
+
+
+              convolve`slide_window+0x31
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x102
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve+0x123
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x4d4
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x10a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x3b
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x30c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x3e
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x10f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x310
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x2e2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x37
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x11e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x224
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x126
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x49
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`update_max+0x3e
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`madvise+0xa
+              convolve`main+0x17c
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x32
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x64
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_c.dylib`__xvprintf+0x2f
+              libsystem_c.dylib`vfprintf_l+0x36
+              libsystem_c.dylib`printf+0xae
+              convolve`convolve+0x1b2
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x23a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x143
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x4e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x250
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x353
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft_one_off+0x4e
+              convolve`convolve_overlap_add_fft+0x3bf
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_m.dylib`llrint
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x261
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x434
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft_one_off+0x56
+              convolve`convolve_overlap_add_fft+0x3bf
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x26b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x26b
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x36c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x9d
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x26f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x540
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x71
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x646
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x279
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x37a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x1d
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x44d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_m.dylib`llrint+0x1d
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x37e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x7f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x287
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x28f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xbf
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x94
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x34
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x36
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x39
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x29a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`d2les_array+0x3d
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xcd
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x29e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x29e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2a2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2a2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x373
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x4a
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`d2les_array+0x4c
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xb1
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2b4
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x384
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2b8
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft_one_off+0xa9
+              convolve`convolve_overlap_add_fft+0x3bf
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`pcm_read_les2d+0x8f
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x48e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x60
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`pcm_read_les2d+0x97
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x63
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xc4
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2c6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`pcm_read_les2d+0x9d
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xce
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x72
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2d3
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x5a4
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2dd
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2dd
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xdf
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x82
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xe5
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2e6
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x8f
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x21
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`read+0xa
+              libsndfile.1.dylib`header_read+0x6f
+              libsndfile.1.dylib`psf_binheader_readf+0x575
+              libsndfile.1.dylib`guess_file_type+0x33
+              libsndfile.1.dylib`psf_open_file+0x3f5
+              convolve`read_wav+0x32
+              convolve`initialize+0x63
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x4c2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x97
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x29
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2fd
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x2e
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x102
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve+0x127
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve+0x12c
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`update_max+0x2b
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x11e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x331
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x23a
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`pre_process_fft+0x5a
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x13b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x40
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x143
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x24c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x250
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x254
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x56
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve_overlap_add_fft+0x529
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x71
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x7f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`post_process_fft+0x2e
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`slide_window+0xc4
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x9f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x9f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve_overlap_add_fft+0x57a
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xb1
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xda
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xda
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`post_process_fft+0x89
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xef
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xfc
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x10f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x320
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x228
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x331
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x32
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x133
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x345
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x515
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              libsystem_kernel.dylib`write+0xa
+              libsndfile.1.dylib`pcm_write_d2les+0x8f
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x254
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x358
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x358
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x26b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`slide_window+0xad
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`slide_window+0xb1
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x8c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              libsystem_kernel.dylib`__exit+0xa
+              libdyld.dylib`start+0x8
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x568
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x47d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x2b0
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xc4
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x49f
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x4b1
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x4b5
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xef
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              libsystem_kernel.dylib`read+0xa
+              libsndfile.1.dylib`pcm_read_les2d+0x70
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xf6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xfc
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`pre_process_fft+0x3c
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x228
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x23e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x345
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x24c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`convolve_overlap_add_fft+0x52e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x60
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x261
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`convolve_overlap_add_fft+0x478
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0xe5
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x307
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`slide_window+0x5f
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`pre_process_fft+0x68
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x37e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`convolve_overlap_add_fft+0x57f
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0xd6
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x2b0
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0xd6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0xf6
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0x248
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x261
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x36c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`convolve_overlap_add_fft+0x45a
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x2ab
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`post_process_fft+0x53
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x23e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`four1+0x32c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                9
+
+              libsndfile.1.dylib`pcm_read_les2d+0x97
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                9
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                9
+
+              convolve`convolve_overlap_add_fft+0x5d2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`four1+0x31a
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`four1+0x328
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`convolve_overlap_add_fft+0x56d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`four1+0x328
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               11
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               11
+
+              convolve`four1+0x307
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x314
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x25d
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x25d
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`convolve_overlap_add_fft+0x53b
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x2f0
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               13
+
+              convolve`four1+0x314
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               15
+
+              convolve`four1+0x259
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               15
+
+              convolve`four1+0x2f0
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               15
+
+              convolve`four1+0x32c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               16
+
+              convolve`four1+0x248
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               16
+
+              convolve`four1+0x2b8
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               16
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               17
+
+              convolve`four1+0x31a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               17
+
+              convolve`four1+0x259
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               17
+
+              convolve`four1+0x282
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               17
+
+              convolve`four1+0x2ab
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               17
+
+              convolve`four1+0x295
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               19
+
+              convolve`four1+0x2cf
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               20
+
+              convolve`four1+0x2b8
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               21
+
+              convolve`four1+0x2cf
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               21
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               23
+
+              convolve`four1+0x295
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               23
+
+              convolve`four1+0x282
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               24
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               27
+
+              convolve`four1+0x2a7
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               30
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               31
+
+              convolve`four1+0x2a7
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               32
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               36
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               42
+
+              convolve`four1+0x279
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               45
+
+              convolve`four1+0x279
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               47
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               63
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               65
+
+              convolve`four1+0x27d
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               78
+
+              convolve`four1+0x27d
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               83
+
+              convolve`four1+0x2c2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               97
+
+              convolve`four1+0x2c2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              112
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              324
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              340
+
+
+              convolve`four1+0x102
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x102
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x102
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x4d4
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x34
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`close+0xa
+              libsndfile.1.dylib`psf_fclose+0x2d
+              libsndfile.1.dylib`psf_close+0x43
+              convolve`write_wav+0xa4
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x29
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x10a
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x3b
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve+0x12c
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x2dd
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x3e
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`update_max+0x23
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x45
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x37
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve+0x138
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`update_max+0x2b
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x3c
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x320
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x320
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x44
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x224
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`madvise+0xa
+              convolve`main+0x17c
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x32
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x133
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x64
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x56
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x30b
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x13b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x33b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x40
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x75
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`write+0xa
+              libsndfile.1.dylib`pcm_write_d2les+0x8f
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x4e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x34e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x81
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x353
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x254
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x56
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x56
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x529
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x259
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x90
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x26b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x9d
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x540
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x71
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x37a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x64b
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x44d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x27d
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_m.dylib`llrint+0x1d
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xad
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x37e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x7f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x557
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x87
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x287
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xb7
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xba
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x2e
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0xbf
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x560
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x34
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x467
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x568
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x9a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x29a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x46b
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft_one_off+0x8f
+              convolve`convolve_overlap_add_fft+0x3bf
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2a2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x373
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2a7
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x57a
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x47d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xb1
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x57
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x5a
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x48a
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x48e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x60
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xc4
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2c6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`pcm_read_les2d+0x9d
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xce
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xce
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xd2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x5a4
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xd6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2d7
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x7a
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2dd
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xdf
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xdf
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x4b5
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2e6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x18
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`post_process_fft+0x89
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xeb
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xeb
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsndfile.1.dylib`wav_close
+              convolve`read_wav+0x103
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              libsystem_kernel.dylib`__open+0xa
+              libsndfile.1.dylib`sf_open+0x91
+              convolve`write_wav+0x63
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xef
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x21
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`convolve_overlap_add_fft+0x4c7
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`pre_process_fft+0x1a
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0xfc
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2fd
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`four1+0x2fd
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`update_max+0xe
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                1
+
+              convolve`slide_window+0x31
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve+0x127
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`update_max+0x19
+              convolve`convolve_overlap_add_fft+0x5b2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x10f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x113
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x11e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x11e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x228
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`pre_process_fft+0x49
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`pre_process_fft+0x5a
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x23a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x23e
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x143
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve_overlap_add_fft+0x515
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x345
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x345
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`pre_process_fft+0x68
+              convolve`convolve_overlap_add_fft+0x4f6
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x250
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x358
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x36c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              libsystem_m.dylib`llrint+0xe
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x26f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x71
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`slide_window+0xa1
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x375
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x37e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`post_process_fft+0x23
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`slide_window+0xcd
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x9f
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x2a2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              libsndfile.1.dylib`d2les_array+0x4c
+              libsndfile.1.dylib`pcm_write_d2les+0x75
+              libsndfile.1.dylib`sf_write_double+0x130
+              convolve`write_wav+0x78
+              convolve`convolve+0x19a
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xb1
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0x2d3
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xda
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve_overlap_add_fft+0x4b1
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`slide_window+0x1e
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`post_process_fft+0x8f
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xef
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`four1+0xf6
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`slide_window+0x2e
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                2
+
+              convolve`convolve_overlap_add_fft+0x5d7
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x10a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x10f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x32
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x336
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x13b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x40
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x25d
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x26b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x36c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0x26f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x554
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              libsystem_kernel.dylib`__exit+0xa
+              libdyld.dylib`start+0x8
+              convolve`0x4
+                3
+
+              convolve`four1+0x2b0
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xc4
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`post_process_fft+0x72
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xd6
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              libsystem_kernel.dylib`read+0xa
+              libsndfile.1.dylib`pcm_read_les2d+0x70
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`four1+0xf6
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                3
+
+              convolve`convolve_overlap_add_fft+0x5d2
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x331
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x133
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x23e
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x254
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x358
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x60
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`convolve_overlap_add_fft+0x448
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`convolve_overlap_add_fft+0x478
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`convolve_overlap_add_fft+0x57f
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x2d3
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0xe5
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0xe5
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0xfc
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                4
+
+              convolve`four1+0x331
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x23a
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x25d
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x8c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`post_process_fft+0x36
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`post_process_fft+0x53
+              convolve`convolve_overlap_add_fft+0x42d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                5
+
+              convolve`four1+0x228
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0x32c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`slide_window+0x5f
+              convolve`convolve_overlap_add_fft+0x3fe
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0x60
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x3a3
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`convolve_overlap_add_fft+0x45a
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              libsndfile.1.dylib`pcm_read_les2d+0x97
+              libsndfile.1.dylib`sf_read_double+0x144
+              convolve`read_wav+0xf5
+              convolve`initialize+0x3a
+              convolve`main+0xaa
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                6
+
+              convolve`four1+0x307
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x32c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x24c
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x24c
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x7f
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                7
+
+              convolve`four1+0x259
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`four1+0x261
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`convolve_overlap_add_fft+0x53b
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`convolve_overlap_add_fft+0x56d
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`four1+0x2f5
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                8
+
+              convolve`four1+0x328
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                9
+
+              convolve`four1+0x2b8
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+                9
+
+              convolve`four1+0x261
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`four1+0x2ab
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               10
+
+              convolve`four1+0x307
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               11
+
+              convolve`four1+0x2f0
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               11
+
+              convolve`four1+0x2f0
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               11
+
+              convolve`four1+0x31a
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x2ab
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x2b0
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               12
+
+              convolve`four1+0x314
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               13
+
+              convolve`four1+0x248
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               13
+
+              convolve`four1+0x259
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               13
+
+              convolve`four1+0x31a
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               14
+
+              convolve`four1+0x328
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               14
+
+              convolve`four1+0x248
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               14
+
+              convolve`four1+0x2cf
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               14
+
+              convolve`four1+0x314
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               15
+
+              convolve`four1+0x2b8
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               16
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               18
+
+              convolve`four1+0x2cf
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               19
+
+              convolve`four1+0x282
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               21
+
+              convolve`four1+0x295
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               21
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               23
+
+              convolve`four1+0x282
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               24
+
+              convolve`four1+0x2a7
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               24
+
+              convolve`four1+0x2bd
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               24
+
+              convolve`four1+0x302
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               26
+
+              convolve`four1+0x2a7
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               26
+
+              convolve`four1+0x295
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               30
+
+              convolve`four1+0x279
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               36
+
+              convolve`four1+0x279
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               40
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               44
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               49
+
+              convolve`four1+0x5b
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               52
+
+              convolve`four1+0x2e2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               62
+
+              convolve`four1+0x27d
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               85
+
+              convolve`four1+0x2c2
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               88
+
+              convolve`four1+0x27d
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+               90
+
+              convolve`four1+0x2c2
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              109
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x50e
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              337
+
+              convolve`four1+0x266
+              convolve`convolve_overlap_add_fft+0x419
+              convolve`convolve+0xa7
+              convolve`main+0xb6
+              libdyld.dylib`start+0x1
+              convolve`0x4
+              359
